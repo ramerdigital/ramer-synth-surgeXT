@@ -172,6 +172,8 @@ if(SURGE_BUILD_XT AND NOT SURGE_SKIP_JUCE_FOR_RACK)
   add_subdirectory(surge-xt)
 endif()
 
+add_subdirectory(ramer-synth)
+
 if(SURGE_BUILD_PYTHON_BINDINGS)
   add_subdirectory(surge-python)
 endif()
